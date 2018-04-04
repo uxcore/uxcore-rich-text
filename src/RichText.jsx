@@ -10,9 +10,11 @@ import React from 'react';
 class RichText extends React.Component {
 
   static defaultProps = {
+    content: '',
   };
 
   static propTypes = {
+    content: React.PropTypes.string,
   };
 
   static displayName = 'RichText';
@@ -23,8 +25,14 @@ class RichText extends React.Component {
   }
 
   render() {
+    const { content } = this.props;
     return (
-      <div>uxcore-rich-text component</div>
+      <div>
+        <div
+          className={'mce-content-body'}
+          dangerouslySetInnerHTML={{ __html: content }}
+        />
+      </div>
     );
   }
 }

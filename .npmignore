@@ -27,3 +27,8 @@ spm_modules
 .cache
 .happypack
 dist
+.vdev
+package-lock.json
+.lock
+demo
+mock
