@@ -21,18 +21,14 @@ class RichText extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {};
   }
-
   render() {
     const { content } = this.props;
     return (
-      <div>
-        <div
-          className={'mce-content-body'}
-          dangerouslySetInnerHTML={{ __html: content }}
-        />
-      </div>
+      <div
+        className={'mce-content-body'}
+        dangerouslySetInnerHTML={{ __html: content }}
+      />
     );
   }
 }
