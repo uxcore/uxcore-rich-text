@@ -72,4 +72,6 @@ Yes please! See the [CONTRIBUTING](https://github.com/uxcore/uxcore/blob/master/
 
 | Name | Type | Required | Default | Comments |
 |---|---|---|---|---|
+| content | string | options | '' | rich text content |
+
 
