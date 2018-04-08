@@ -8,6 +8,7 @@
 
 import React from 'react';
 import RichText from '../src';
+
 const content = `<div style="text-align: left;"><font face="andale mono, times"><strong>测<em>试文本</em></strong><strong>的护具</strong></font></div>
 <div style="text-align: left;">&nbsp;</div>
 <ul>
