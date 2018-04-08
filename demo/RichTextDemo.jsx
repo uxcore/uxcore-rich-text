@@ -112,4 +112,3 @@ class Demo extends React.Component {
 }
 export default Demo;
 
-// ReactDOM.render(<Demo/>, document.getElementById('RichTextDemo'));
