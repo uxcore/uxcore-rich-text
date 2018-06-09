@@ -6,22 +6,19 @@
  * All rights reserved.
  */
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class RichText extends React.Component {
-
   static defaultProps = {
     content: '',
   };
 
   static propTypes = {
-    content: React.PropTypes.string,
+    content: PropTypes.string,
   };
 
   static displayName = 'RichText';
 
-  constructor(props) {
-    super(props);
-  }
   render() {
     const { content } = this.props;
     return (
